@@ -45,6 +45,8 @@ def contar_pase_y_efectividad ():
     lista[0]["Australia"] = sorted(lista[0]["Australia"], key=lambda x: x["porcentaje"], reverse=True)
     return lista
 
+    #"hi"
+
 
 print(contar_pase_y_efectividad())
 
